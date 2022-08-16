@@ -149,12 +149,10 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    user_type_count = df['User Type'].value_counts()
-    print(user_type_count)
+    print(df['User Type'].value_counts())
     
     # Display counts of gender
-    gender_type_count = df['Gender'].value_counts()
-    print(gender_type_count)
+    print(df['Gender'].value_counts())
 
     # Display earliest, most recent, and most common year of birth
     print('For the users travelling within this period:')
