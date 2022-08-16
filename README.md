@@ -4,10 +4,10 @@
 16th of August
 
 ### Project Title
-Replace the Project Title
+Udacity Programming for Data Science Nanodegree Project 3 - Git Commands Documentation
 
 ### Description
-Describe what your project is about and what it does
+This project provides information on a bikesharing system, such as the most common month, day or hour of travel, most commonly used train stations, total travel time and stats of users which can be filtered by the user type or the user's gender. The bikesharing data is from New York City, Chicago, or Washington, and users can select which city they would like to see the data for. The project utilises pandas to display the lines of data to suit the users needs.
 
 ### Files used
 Include the files used
