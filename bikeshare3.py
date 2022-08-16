@@ -197,6 +197,7 @@ def bikeshare():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
+        #Washington does not have user statistics, so a conditional is used to prevent users selecting user stats from Washington.
         if city == 'chicago' or city == 'new_york_city':
             user_stats(df)
         see_data(city)
