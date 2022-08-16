@@ -72,12 +72,12 @@ def load_data(city, month, day):
     df['Start Hour'] = df['Start Time'].dt.hour
 
     if month != 'All':
-        # filter by month to create the new dataframe
+    # filter by month to create the new dataframe
         df = df[df['Month'] == month]
         
     # filter by day of week if applicable
     if day != 'All':
-        # filter by day of week to create the new dataframe
+    # filter by day of week to create the new dataframe
         df = df[df['Day'] == day]
     return df
     
@@ -187,8 +187,7 @@ def see_data(city):
         else:
             print("\033[1mPlease type in a valid response\n\033[0m")
         break
-    
-    
+
 def bikeshare():    
     '''Main function which calls the other functions for the purpose of being able to loop the entire process if users which to restart.'''
     while True:
