@@ -10,8 +10,13 @@ Udacity Programming for Data Science Nanodegree Project 3 - Git Commands Documen
 This project provides information on a bikesharing system, such as the most common month, day or hour of travel, most commonly used train stations, total travel time and stats of users which can be filtered by the user type or the user's gender. The bikesharing data is from New York City, Chicago, or Washington, and users can select which city they would like to see the data for. The project utilises pandas to display the lines of data to suit the users needs.
 
 ### Files used
-Include the files used
+README.md
+bikeshare3.py
+chicago.csv
+new_york_city.csv
+washington.csv
+.gitignore
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit to the following repository: https://github.com/udacity/pdsnd_github
 
