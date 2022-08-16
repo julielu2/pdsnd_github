@@ -20,3 +20,5 @@ washington.csv
 ### Credits
 Credit to the following repository: https://github.com/udacity/pdsnd_github
 
+### Note
+This is a redo of this project, as it was initially rejected due to issues with the commenting when commiting.
