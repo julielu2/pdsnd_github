@@ -210,5 +210,6 @@ def bikeshare():
                 print('\033[1m\nPlease input a valid response\n\033[0m')
         if restart == 'no':
             break
+# Runs main program
 bikeshare()
 print('\033[1m\nThanks for interacting!\033[0m')
